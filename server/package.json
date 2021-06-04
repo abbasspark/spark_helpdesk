@@ -4,9 +4,26 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.1",
+    "chance": "^1.1.7",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "password-generator": "^2.3.2",
+    "sequelize": "^6.6.2",
+    "ssl-validator": "^1.0.7"
+  }
 }
